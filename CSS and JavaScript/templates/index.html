@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+        <script type="text/javascript" src="{{ url_for('static',filename='script/script.js') }}"></script>
+    <h1>Subject Marks</h1>
+    </head>
+    <body>
+        <form action="/submit" method="POST">
+            <label for="science">Science</label><br>
+            <input type="text" id="science" name="science" value="0"><br>
+            <label for="maths">Mathamatics</label><br>
+            <input type="text" id="maths" name="maths" value="0"><br>
+            <label for="english">English</label><br>
+            <input type="text" id="english" name="english" value="0"><br>
+            <label for="computer science">Computer Science</label><br>
+            <input type="text" id="computer science" name="computer science" value="0"><br><br>
+            <input type="submit" value="Submit">
+           
+        </label>    
+        </form>
+    </body>
+</html>
