@@ -1,0 +1,14 @@
+<html>
+<body>
+    <h1>USING JINGA2 TEMPLATE FOR LOOP</h1>
+    <table border="1">
+        {# This is a for loop section #}
+        {% for key,value in results.items() %}
+        <tr>
+                <th>{{ key }}</th>
+                <th>{{ value }}</th>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
